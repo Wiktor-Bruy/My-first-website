@@ -1,125 +1,659 @@
 <!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./style/styles.css" />
+    <title>Simply Chocolate</title>
+  </head>
 
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Blanc Rabbit">
-    <meta name="description" content="На етой странице кратко описана история автомобилей и мотоциклов.">
-    <meta name="keywords" content="Автомобили, мотоциклы, история">
-    <link rel="stylesheet" href="css/StylePage1.css">
-    <title>Главная страица</title>
-</head>
-
-<body>
-    <a title="Войти/Зарегистрироваться" href="./login.html">
-        <div id="login">Login</div>
-    </a>
-    <div id="header">
-        <div id="head">
-            <h1>Всё про автомобили и мотоциклы</h1>
-        </div>
-        <div class="but" title="Переход на главную страницу."><a href="./index.html">Главная</a></div>
-        <div class="but" title="Переход на страницу про автомобили."><a href="./auto.html">Автомобили</a></div>
-        <div class="but" title="Переход на страницу про мотоциклы."><a href="./Moto.html">Мотоциклы</a></div>
-    </div>
-    <div id="body">
-        <h2>Немного об истории автомобилей</h2>
-        <div class="image" title="Rопия самоходной тележки Леонардо да Винчи (1452—1519) в дом-музее Кло-Люсе">
-            <img alt="Error" src="image/img1.jpg" width="300">
-        </div>
-        <p>
-            История автомобиля начинается с изобретением машин, предшествующих современному автомобилю, — колёсных
-            транспортных средств, созданных
-            для перевозки человека по дорогам без применения мускульной силы людей или животных. Появление машин,
-            приводимых в движение паровым
-            двигателем, а затем — двигателем внутреннего сгорания, привело к появлению повсеместно используемого сегодня
-            газолинового или бензинового
-            двигателя внутреннего сгорания. Машины, приводимые в движение электрическим двигателeм, достигшие в своё
-            время пика развития в начале XX
-            века, почти полностью исчезли из поля зрения вплоть до начала XXI века. С возрастанием заинтересованность в
-            транспорте, приводящему к
-            меньшему загрязнению атмосферы токсичными и парниковыми газами, этот вид автомобилей пережил новый расцвет.
-            Раннюю историю автомобиля
-            можно разделить на этапы, различающиеся преобладающим способом самоходного движения. Поздние этапы
-            определялись тенденциями в размере и
-            стилистике внешнего вида, а также предпочтениями в целевом использовании автомобилей.
+  <body>
+    <header class="top-line">
+      <div class="container">
+        <p id="top" class="logo-text">
+          <span class="logo-it">SIMPLY</span><span>CHOCOLATE</span>
+          <img
+            class="logo-desk"
+            src="./icons/logo.svg"
+            alt="logo icon chocolate"
+            width="24"
+            height="24"
+          />
+          <img
+            class="logo-mob"
+            src="./icons/logo.svg"
+            alt="logo icon chocolate"
+            width="21"
+            height="21"
+          />
         </p>
-        <div class="image2" title="Tелега Кюньо">
-            <img alt="Error" src="image/img2.jpg" width="300">
+        <div class="box-nav">
+          <nav class="navigat">
+            <ul class="nav-list">
+              <li><a class="nav-link" href="./index.html">Головна</a></li>
+              <li><a class="nav-link" href="#made">Як це робиться?</a></li>
+              <li><a class="nav-link" href="#revievs">Відгуки</a></li>
+            </ul>
+          </nav>
+          <ul class="soc-top">
+            <li>
+              <a class="soc-link" href="#">
+                <svg width="24" height="24">
+                  <use href="./icons/icons.svg#inst"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="soc-link" href="#">
+                <svg width="24" height="24">
+                  <use href="./icons/icons.svg#twitt"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
-        <p>
-            <b>Первые изобретения : </b>
-            Древнейшее изобретение самодвижущийся повозки с использованием зубчатого колеса относится к XV веку и
-            принадлежит Леонардо да Винчи.
-            В 1672 году Фердинанд Вербист придумал первую миниатюрную модель самодвижущейся повозки с использованием
-            парового котла. Это
-            изобретение было создано как игрушка для китайского императора и не было предназначено для перевозки
-            водителя или пассажира, но,
-            вероятно, оно является первой самодвижущейся паровой машиной.
-            В 1690 году Дени Папен создал первый паровой двигатель, который сначала использовали для откачки воды.
-            Самоходные машины с паровым двигателем появились в конце XVIII века, когда в 1770 году Николя-Жозеф Кюньо
-            продемонстрировал свой
-            экспериментальный тягач артиллерийских орудий с паровым приводом, который являлся первым полноразмерным
-            транспортным средством на
-            паровом ходу. Однако конструкция Кюньо оказалась весьма непрактичной.
-            К 1784 году Уильям Мэрдок создал прототип дорожного локомотива — парового трактора.
-            В 1805 году Оливер Эванс заключил контракт с властями города Филадельфия на создание шаланды для
-            дноуглубительных работ на верфи.
-            Для этого он построил деревянную конструкцию, снабдив её гребным колесом с паровым двигателем и поставив
-            своё изобретение на четыре
-            колеса, что бы доставить её к реке. Эванс дал своему изобретению название «Оруктер Амфибилос» (Orukter
-            Amphibolos), по своему
-            предназначению она являлась первой специализированной лодкой-амфибией.
-        </p>
-        <h2>Немного об истории мотоциклов</h2>
-        <div class="image" title="Паровой велосипед Пьера Мишо, 1869 год.">
-            <img alt="Error" src="image/img3.jpg" width="300">
-        </div>
-        <p>
-            Самодвижущиеся двухколёсные машины стали появляться в 60-х годах XIX века. Единственная доступная в то время
-            силовая установка —
-            паровая машина — уже могла быть достаточно компактной для установки на лёгкий двухколёсный экипаж. Однако
-            малая удельная мощность
-            (двигатель парового мотоцикла Коупленда (1884 г.) развивал всего 0,25 л.с. при весе 9 кг), непрактичность
-            из-за длительного разведения
-            паров и крайне малый КПД (единицы процентов) обусловили появление лишь единичных экспериментальных образцов.
-            Служившие базой для них
-            примитивные велосипеды целиком из металла или с деревянными элементами, с педальным приводом непосредственно
-            на переднее колесо были
-            тяжелы и некомфортны.
-            Первый мотоцикл с двигателем внутреннего сгорания (Daimler Reitwagen) был построен в 1885 году в Германии
-            немецкими инженерами
-            Готлибом Даймлером и Вильгельмом Майбахом, впоследствии — «отцами» знаменитых автомобильных марок. Машина
-            создавалась всего лишь
-            как простейший стенд для испытаний изготовленного изобретателями двигателя будущих четырёхколёсных экипажей
-            и напоминала первые
-            беспедальные велосипеды-«костотрясы» начала XIX века. Бензиновый карбюраторный двигатель Даймлера и Майбаха
-            имел мощность 1,5 л.с.
-            и был установлен на деревянной раме с деревянными колесами. При испытаниях аппарат развил скорость 12 км/ч.
-            В том же 1885 году
-            Даймлером был получен патент на «повозку для верховой езды с керосиновым двигателем». Таким образом,
-            классический мотоцикл появился
-            раньше классического автомобиля с ДВС (1886). Фирма Даймлера более к конструированию мотоциклов никогда не
-            возвращалась.
-            Исторический мотоцикл сгорел при пожаре в мастерской Даймлера в 1904 году. Однако к столетию мотоцикла, в
-            1985 г., изготовлено
-            порядка десятка ходовых реплик для демонстрации на шоу и в музеях. В музее концерна Daimler-Benz в Штутгарте
-            выставлена также реплика.
-        </p>
-    </div>
-    <div id="footer">
-        <div class="tabl">
-            <p class="contakt" title="m_auto@garag.com">Директор - Blanc Rabbit</p>
-            <p class="contakt" title="m_auto@garag.com">Заместитель - Blanc Rabbit</p>
-            <p class="contakt" title="m_auto@garag.com">Разработчик - Blanc Rabbit</p>
-            <p class="contakt" title="m_auto@garag.com">Куратор сайта - Blanc Rabbit</p>
-        </div>
-        <p id="bay">Если вам понравился сайт, не забудьте посетить его снова!</p>
-        <div class="image1">
-            <img alt="Error" src="image/img4.jpg" width="800" height="150">
-        </div>
-    </div>
-</body>
+        <button class="menu" type="button">
+          <svg class="menu-icon" width="21" height="14">
+            <use href="./icons/icons.svg#menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
 
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="back-image">
+            <h1 class="hero-title">
+              Побалуйте себе або близьку людину нашими найкращими інгредієнтами
+              і подаруйте йому момент чистої насолоди!
+            </h1>
+            <div class="box-hero-but">
+              <ul class="hero-list">
+                <li>
+                  <button class="but-or but-hero-or" type="button">
+                    Купити зараз
+                  </button>
+                </li>
+                <li>
+                  <button class="but-hero-trs" type="button">
+                    Як це робиться?
+                  </button>
+                </li>
+              </ul>
+              <a class="scrol-d" href="#bottom">
+                <span>спуститись вниз</span>
+                <span class="box-scrol">
+                  <svg class="icon-scrol-mob" width="27" height="27">
+                    <use href="./icons/icons.svg#scrol"></use>
+                  </svg>
+                  <svg class="icon-scrol-desk" width="37" height="37">
+                    <use href="./icons/icons.svg#scrol"></use>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="product" class="benefits">
+        <div class="container">
+          <h2 class="visually-hidden">Наші переваги</h2>
+          <ul class="ben-list">
+            <li class="ben-list-item">
+              <div class="ben-image-box">
+                <img
+                  class="ben-image"
+                  src="./icons/ben-1.svg"
+                  alt="icon chocolate"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <h3 class="ben-title">Неперевершений смак</h3>
+              <p class="ben-text">
+                Виготовлений з добірних какао-бобів та із захопленням до
+                досконалості, кожен шматочок - це ні з чим не порівнянне
+                задоволення. Насолоджуйтесь багатством і складністю нашого
+                неперевершеного смаку та відкрийте для себе новий рівень
+                шоколадне блаженство.
+              </p>
+            </li>
+            <li class="ben-list-item">
+              <div class="ben-image-box">
+                <img
+                  class="ben-image"
+                  src="./icons/ben-2.svg"
+                  alt="icon coin"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <h3 class="ben-title">Доступна ціна</h3>
+              <p class="ben-text">
+                Побалуйте себе високоякісним шоколадом, не витрачаючи багато
+                грошей, завдяки асортименту доступних ласощів Simply Chocolate.
+                Насолоджуйтеся апетитними трюфелями та оксамитовими плитками
+                шоколаду, не жертвуючи смаком та якістю. Ознайомтеся з нашим
+                асортиментом і побалуйте себе доступною розкішшю вже сьогодні.
+              </p>
+            </li>
+            <li class="ben-list-item">
+              <div class="ben-image-box">
+                <img
+                  class="ben-image"
+                  src="./icons/ben-3.svg"
+                  alt="icon spoon"
+                  width="32"
+                  height="32"
+                />
+              </div>
+              <h3 class="ben-title">Власне виробництво</h3>
+              <p class="ben-text">
+                Ми пишаємось нашим власним виробничим процесом, гарантуючи, що
+                кожен етап доведено до досконалості. Від відбору найкращих
+                інгредієнтів до ручного збирання кожного шматочка — наше увага
+                до деталей помітна у кожному шматочку.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="our-product">
+        <div class="container">
+          <h2 class="section-title">
+            Все це складається в одне виняткове
+            <span class="color-title">смакове</span> відчуття.
+          </h2>
+          <p class="text-prod-top">
+            У Simply Chocolate ми віримо, що секрет виняткового шоколаду
+            криється у деталях. Від вибору найкращих інгредієнтів до ретельного
+            виготовлення кожного окремого виробу - кожен етап нашого процесу
+            складається в унікальне смакове відчуття.
+          </p>
+          <ul class="list-prod">
+            <li class="prod-item">
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/desctop/milk1-d.png    1x,
+                    ./images/desctop/milk-1d@x2.png 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1157px)"
+                  srcset="
+                    ./images/mobile/milk-1m.png    1x,
+                    ./images/mobile/milk-1m@x2.png 2x
+                  "
+                />
+                <img src="./images/desctop/milk1-d.png" alt="milc chocolate" />
+              </picture>
+              <h3 class="list-title">Молочний шоколад</h3>
+              <div class="prod-qverlay">
+                <h3 class="list-title">Молочний шоколад</h3>
+                <ul class="list-overlay">
+                  <li>
+                    <button class="but-or" type="button">Молочний</button>
+                  </li>
+                  <li>
+                    <button class="but-over" type="button">Переваги</button>
+                  </li>
+                </ul>
+                <p class="text-overlay">
+                  Молочний шоколад - твердий шоколадний кондитерський виріб,
+                  містить какао, цукор та молоко. Це найбільш споживаний вид
+                  шоколаду. Спочатку шоколад продавався і вживався як напій ще в
+                  доколумбові часи. Однак чотири п'ятих всього молочного
+                  шоколаду продається у США та Європі.
+                </p>
+              </div>
+            </li>
+            <li class="prod-item">
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/desctop/milk-2d.png    1x,
+                    ./images/desctop/milk-2d@x2.png 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1157px)"
+                  srcset="
+                    ./images/mobile/milk-2m.png    1x,
+                    ./images/mobile/milk-2m@x2.png 2x
+                  "
+                />
+                <img src="./images/desctop/milk-2d.png" alt="milk" />
+              </picture>
+              <h3 class="list-title">Молоко</h3>
+              <div class="prod-qverlay">
+                <h3 class="list-title">Молоко</h3>
+                <ul class="list-overlay">
+                  <li><button class="but-or" type="button">Молоко</button></li>
+                  <li>
+                    <button class="but-over" type="button">Переваги</button>
+                  </li>
+                </ul>
+                <p class="text-overlay">
+                  Молоко - це рідкий білий продукт, що виробляється молочними
+                  продуктами. залозами ссавців. Воно є основним джерелом
+                  харчування для дитинчат ссавців (включаючи грудних немовлят)
+                  до того, як вони навчаться перетравлювати тверду їжу. Молоко
+                  раннього періоду лактації, що називається молозивом, містить
+                  антитіла, що зміцнюють імунну систему.
+                </p>
+              </div>
+            </li>
+            <li class="prod-item">
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/desctop/milk-3d.png    1x,
+                    ./images/desctop/milk-3d@x2.png 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1157px)"
+                  srcset="
+                    ./images/mobile/milk-3m.png    1x,
+                    ./images/mobile/milk-3m@x2.png 2x
+                  "
+                />
+                <img src="./images/desctop/milk-3d.png" alt="nuts" />
+              </picture>
+              <h3 class="list-title">Горіхи</h3>
+              <div class="prod-qverlay">
+                <h3 class="list-title">Горіхи</h3>
+                <ul class="list-overlay">
+                  <li><button class="but-or" type="button">Горіхи</button></li>
+                  <li>
+                    <button class="but-over" type="button">Переваги</button>
+                  </li>
+                </ul>
+                <p class="text-overlay">
+                  Мигдаль, фісташки та волоські горіхи — ось лише деякі з видів
+                  горіхів, які містять корисні поживні речовини. У складі
+                  багатої поживними речовинами дієти ці 9 горіхів можуть
+                  принести користь, наприклад, знизити ризик серцево-судинних
+                  захворювань Вони - гарне джерело клітковини, корисних жирів та
+                  рослинного білка. Крім того, вони власними силами дуже
+                  корисні.
+                </p>
+              </div>
+            </li>
+            <li class="prod-item">
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/desctop/milk-4d.png    1x,
+                    ./images/desctop/milk-4d@x2.png 2x
+                  "
+                />
+                <source
+                  media="(max-width: 1157px)"
+                  srcset="
+                    ./images/mobile/milk-4m.png    1x,
+                    ./images/mobile/milk-4m@x2.png 2x
+                  "
+                />
+                <img src="./images/desctop/milk-4d.png" alt="cacao" />
+              </picture>
+              <h3 class="list-title">Напівсолодкий шоколад</h3>
+              <div class="prod-qverlay">
+                <h3 class="list-title">Напівсолодкий шоколад</h3>
+                <ul class="list-overlay">
+                  <li>
+                    <button class="but-or" type="button">Напівсолодкий</button>
+                  </li>
+                  <li>
+                    <button class="but-over" type="button">Переваги</button>
+                  </li>
+                </ul>
+                <p class="text-overlay">
+                  Вміст какао-продуктів у напівсолодкому шоколаді складає від 35
+                  до 65%. Один з найкращих способів зрозуміти цей вид шоколаду -
+                  Порівняти його з іншим. Напівсолодкий шоколад темніший за
+                  молочний. Смак у нього трохи гіркуватий, тоді як молочний
+                  шоколад більш солодкий та м'який.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="made" class="made">
+        <div class="container">
+          <h2 class="section-title">
+            Як це <span class="color-title">робиться?</span>
+          </h2>
+          <div class="box-made">
+            <picture class="made-photo">
+              <source
+                media="(min-width: 1158px)"
+                srcset="
+                  ./images/desctop/made-desk.jpg    1x,
+                  ./images/desctop/made-desk@x2.jpg 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/tablet/made-tab.png    1x,
+                  ./images/tablet/made-tab@x2.png 2x
+                "
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/mobile/made-mob.jpg    1x,
+                  ./images/mobile/made-mob@x2.png 2x
+                "
+              />
+              <img src="./images/desctop/made-desk.jpg" alt="how its made" />
+            </picture>
+            <div class="box-made-list">
+              <h3 class="text-title">
+                Спробуйте наш шоколад сьогодні та відкрийте для себе ідеальний
+                баланс смаку.
+              </h3>
+              <ul class="made-list">
+                <li class="made-list-item">
+                  <span class="list-decor"></span>
+                  <p class="made-list-text">
+                    Нагрійте молоко у каструлі, не доводячи до кипіння. Додайте
+                    цукор та какао-порошок.
+                  </p>
+                </li>
+                <li class="made-list-item">
+                  <span class="list-decor"></span>
+                  <p class="made-list-text">
+                    У цей же час підготуйте водяну баню та розтопіть на ній
+                    вершкове масло. /
+                  </p>
+                </li>
+                <li class="made-list-item">
+                  <span class="list-decor"></span>
+                  <p class="made-list-text">
+                    «Змішуємо» молочну суміш і вже рідку олію. Ретельно
+                    перемішуємо силіконовою лопаткою, щоб маса стала однорідної
+                    та шовковистої.
+                  </p>
+                </li>
+                <li class="made-list-item">
+                  <span class="list-decor"></span>
+                  <p class="made-list-text">
+                    Нагрівайте суміш на повільному вогні, даючи їй ледве кипіти.
+                  </p>
+                </li>
+                <li class="made-list-item">
+                  <span class="list-decor"></span>
+                  <p class="made-list-text">
+                    Розлийте шоколад за спеціальними ємностями (можна замінити
+                    формами для льоду). Дайте йому охолонути і затвердіти.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="revievs" class="fetback">
+        <div class="container">
+          <h2 class="section-title">
+            <span class="color-title">Відгуки</span> покупців
+          </h2>
+          <ul class="fet-list">
+            <li class="fet-list-item">
+              <div class="fet-box">
+                <img
+                  class="photo-fet"
+                  srcset="./images/rev-1.png 1x, ./images/rev-1@x2.png 2x"
+                  src="./images/rev-1.png"
+                  alt="photo Viktoria"
+                  width="80"
+                />
+                <h3 class="text-title">Вікторія Добржанська</h3>
+                <p class="fet-text">
+                  Люблю цей шоколадний батончик. Ідеальне поєднання легкої
+                  хрусткі вафлі, покриті тонким шаром шоколаду.
+                </p>
+              </div>
+            </li>
+            <li class="fet-list-item">
+              <div class="fet-box">
+                <img
+                  class="photo-fet"
+                  srcset="./images/rev-2.png 1x, ./images/rev-2@x2.png 2x"
+                  src="./images/rev-2.png"
+                  alt="photo Nazar"
+                  width="80"
+                />
+                <h3 class="text-title">Назар Бабенко</h3>
+                <p class="fet-text">
+                  Ці шоколадні ласощі - просто насолода! Просто насолода! Вафля
+                  легка і хрумка, горіховий ніжний крем, а шоколад просто
+                  чудовий.
+                </p>
+              </div>
+            </li>
+            <li class="fet-list-item">
+              <div class="fet-box">
+                <img
+                  class="photo-fet"
+                  srcset="./images/rev-3.png 1x, ./images/rev-3@x2.png 2x"
+                  src="./images/rev-3.png"
+                  alt="photo Olena"
+                  width="80"
+                />
+                <h3 class="text-title">Олена Кампуш</h3>
+                <p class="fet-text">
+                  Шоколад - улюблені ласощі всієї родини. Люблю ніжний шоколад і
+                  кремові текстури всередині. Вафля м'яка, але хрумка.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <button class="but-fet" type="button">Залишити відгук</button>
+        </div>
+      </section>
+    </main>
+
+    <footer id="bottom" class="down-line">
+      <div class="container">
+        <div class="contakt-box">
+          <p class="text-dovn">
+            <span class="color-title">Шоколад</span> — смачні ліки від поганого
+            дня.
+          </p>
+          <address>
+            <p class="contakt-title">Контакти:</p>
+            <ul class="contakt-list">
+              <li class="contakt-item">
+                <a class="contakt-link" href="tel:+380684439426"
+                  >+380 (68) 443-94-26</a
+                >
+              </li>
+              <li class="contakt-item">
+                <a class="contakt-link" href="mailto:simplychoc@gmail.com"
+                  >simplychoc@gmail.com</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="box-nav-down">
+          <nav>
+            <ul class="nav-list-down">
+              <li class="list-down-item">
+                <a class="link-down" href="./index.html">Головна</a>
+              </li>
+              <li class="list-down-item">
+                <a class="link-down" href="#made">Як це робиться?</a>
+              </li>
+              <li class="list-down-item">
+                <a class="link-down" href="#product">Наші переваги</a>
+              </li>
+              <li class="list-down-item">
+                <a class="link-down" href="#top">Піднятися вгору</a>
+              </li>
+              <li class="list-down-item">
+                <a class="link-down" href="#revievs">Відгуки</a>
+              </li>
+            </ul>
+          </nav>
+          <form class="foot-form">
+            <input
+              class="foot-input"
+              type="email"
+              placeholder="Введіть вашу пошту"
+            />
+            <button class="but-or" type="submit">Написати</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-menu-overlay">
+      <div class="mobile-menu">
+        <button class="but-m-clos" type="button">
+          <svg width="20" height="20">
+            <use href="./icons/icons.svg#clos"></use>
+          </svg>
+        </button>
+        <nav>
+          <ul class="mobile-nav">
+            <li><a class="mobile-link" href="#">Головна</a></li>
+            <li><a class="mobile-link" href="#">Як це робиться?</a></li>
+            <li><a class="mobile-link" href="#">Відгуки</a></li>
+          </ul>
+        </nav>
+        <ul class="mob-soc-list">
+          <li>
+            <button class="but-mob" type="button">
+              <svg width="18" height="18">
+                <use href="./icons/icons.svg#inst"></use>
+              </svg>
+            </button>
+          </li>
+          <li>
+            <button class="but-mob" type="button">
+              <svg width="18" height="18">
+                <use href="./icons/icons.svg#twitt"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="but-clos" type="button">
+          <svg class="icon-clos-m" width="17" height="17">
+            <use href="./icons/icons.svg#clos"></use>
+          </svg>
+          <svg class="icon-clos-d" width="21" height="21">
+            <use href="./icons/icons.svg#clos"></use>
+          </svg>
+        </button>
+        <p class="section-title">
+          Залиште відгук про <span class="color-title">наш шоколад</span>
+        </p>
+        <form>
+          <div class="box-input">
+            <div>
+              <label class="input-text" for="user">Ім'я</label>
+              <div class="box-icon">
+                <input class="form-input" type="text" id="user" name="user" />
+                <div class="box-decor">
+                  <svg class="icon-mob" width="17" height="17">
+                    <use href="./icons/icons.svg#user"></use>
+                  </svg>
+                  <svg class="icon-desk" width="24" height="24">
+                    <use href="./icons/icons.svg#user"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label class="input-text" for="mail">Пошта</label>
+              <div class="box-icon">
+                <input class="form-input" type="email" id="mail" name="mail" />
+                <div class="box-decor">
+                  <svg class="icon-mob" width="17" height="17">
+                    <use href="./icons/icons.svg#mail"></use>
+                  </svg>
+                  <svg class="icon-desk" width="24" height="24">
+                    <use href="./icons/icons.svg#mail"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label class="input-text" for="phon">Номер телефону</label>
+              <div class="box-icon">
+                <input class="form-input" type="tel" id="phon" name="phon" />
+                <div class="box-decor">
+                  <svg class="icon-mob" width="17" height="17">
+                    <use href="./icons/icons.svg#phone"></use>
+                  </svg>
+                  <svg class="icon-desk" width="24" height="24">
+                    <use href="./icons/icons.svg#phone"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label class="input-text" for="comment">Коментарій</label>
+              <textarea
+                class="form-comment"
+                name="comment"
+                placeholder="Введіть текст"
+                id="comment"
+              ></textarea>
+            </div>
+          </div>
+          <div class="box-privat">
+            <input
+              class="hidden-chek"
+              type="checkbox"
+              name="priv-pol"
+              id="priv-pol"
+            />
+            <label class="chek-lable" for="priv-pol">
+              <span class="box-chek">
+                <svg class="icon-chek" width="10" height="10">
+                  <use href="./icons/icons.svg#chek"></use>
+                </svg>
+              </span>
+              <p class="chek-text">
+                Я приймаю умови
+                <span class="chek-decor">Політики конфіденційності</span>
+              </p>
+            </label>
+          </div>
+          <button class="but-or" type="submit">Відправити</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
