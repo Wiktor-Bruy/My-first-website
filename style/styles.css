@@ -991,12 +991,12 @@ p {
   background-color: transparent;
   width: 28px;
   height: 28px;
-  stroke: var(--white);
-  transition: background-color 250ms ease-in, stroke 250ms ease-in;
+  fill: var(--white);
+  transition: background-color 250ms ease-in, fill 250ms ease-in;
 }
 .but-m-clos:active {
   background-color: var(--FAFAFA);
-  stroke: var(--orange);
+  fill: var(--orange);
 }
 .mobile-nav {
   display: flex;
