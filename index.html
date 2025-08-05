@@ -62,7 +62,7 @@
             </li>
           </ul>
         </div>
-        <button class="menu" type="button">
+        <button class="menu" type="button" data-menu-open>
           <svg class="menu-icon" width="21" height="14">
             <use href="./icons/icons.svg#menu"></use>
           </svg>
@@ -472,7 +472,9 @@
               </div>
             </li>
           </ul>
-          <button class="but-fet" type="button">Залишити відгук</button>
+          <button class="but-fet" type="button" data-modal-open>
+            Залишити відгук
+          </button>
         </div>
       </section>
     </main>
@@ -532,9 +534,9 @@
       </div>
     </footer>
 
-    <div class="mobile-menu-overlay">
+    <div class="mobile-menu-overlay" data-menu>
       <div class="mobile-menu">
-        <button class="but-m-clos" type="button">
+        <button class="but-m-clos" type="button" data-menu-close>
           <svg width="20" height="20">
             <use href="./icons/icons.svg#clos"></use>
           </svg>
@@ -565,9 +567,9 @@
       </div>
     </div>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay" data-modal>
       <div class="modal">
-        <button class="but-clos" type="button">
+        <button class="but-clos" type="button" data-modal-close>
           <svg class="icon-clos-m" width="17" height="17">
             <use href="./icons/icons.svg#clos"></use>
           </svg>
@@ -655,5 +657,8 @@
         </form>
       </div>
     </div>
+
+    <script src="./script/menu.js" defer></script>
+    <script src="./script/modal.js" defer></script>
   </body>
 </html>
