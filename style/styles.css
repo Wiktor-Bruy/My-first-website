@@ -1137,6 +1137,7 @@ p {
   padding: 14px 18px;
   height: 91px;
   overflow: auto;
+  resize: none;
 }
 .form-comment::placeholder {
   font-size: 13px;
